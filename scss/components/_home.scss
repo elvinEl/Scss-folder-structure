@@ -1,0 +1,17 @@
+.home {
+  font-weight: bold;
+  &-container {
+    @extend %align-center;
+    height: 80vh;
+    flex-direction: column;
+    &-textOne {
+      font-size: $largeFont;
+    }
+    &-textTwo {
+      font-size: $mediumFont;
+    }
+  }
+  @include tablet {
+    color: $colorthree;
+  }
+}

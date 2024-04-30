@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white;
+  color: black; }
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.home {
+  font-weight: bold; }
+  .home-container {
+    height: 80vh;
+    flex-direction: column; }
+    .home-container-textOne {
+      font-size: 30px; }
+    .home-container-textTwo {
+      font-size: 20px; }
+  @media only screen and (max-width: 1124px) {
+    .home {
+      color: red; } }
